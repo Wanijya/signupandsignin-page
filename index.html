@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIN & SignUP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="landing-page">
+        <img src="./sunset.jpg" alt="" />
+        <div id="signin-page">
+          <h1>Sign In</h1>
+          <form>
+            <input type="text" placeholder="User Name" required />
+            <input type="password" placeholder="Password" required />
+            <div id="forgot">
+              <a href="#">Forgot?</a>
+            </div>
+            <button type="submit">SIGN IN</button>
+          </form>
+          <p>Don't have an account? <a href="#" id="show-signup-page">Signup</a></p>
+        </div>
+        <div id="signup-page">
+          <h1>Sign Up</h1>
+          <form>
+            <input type="text" placeholder="User Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Phone Number" />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">SIGN UP</button>
+          </form>
+          <p>Do you have an account? <a href="#" id="show-signin-page">SignIn</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
